@@ -1,0 +1,26 @@
+#palette-1-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+    
+#palette-1-color-1{
+    background-color: #49416D;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-1-color-2{
+    background-color: #A882DD;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-1-color-3{
+    background-color: #E08D79;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
