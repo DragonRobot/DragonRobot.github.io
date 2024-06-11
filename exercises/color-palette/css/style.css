@@ -24,3 +24,75 @@
     text-align: center;
     padding: 24px;
 }
+#palette-2-color-1{
+    background-color: #000505;
+    Color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-2-color-2{
+    background-color: #3b3355;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+    
+}
+#palette-2-color-3{
+    background-color: #5D5D81;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-2-color-4{
+    background-color:  #BFCDE0;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-2-color-5{
+    background-color: #fefcfd;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding:24xp;
+}
+#palette-3-color-1{
+    background-color: #ea638c;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-3-color-2{
+    background-color: #B33C86;
+    color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-3-color-3{
+    background-color: #190E4F;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px
+}
+#palette-3-color-4{
+    background-color:#03012C ;
+    color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-3-color-5{
+    background-color: #002A22;
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+    
+}
