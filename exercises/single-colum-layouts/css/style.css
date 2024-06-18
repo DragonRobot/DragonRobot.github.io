@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column{
+    width: 50%;
+    min-width: 500px;
+    max-width: 1000px;
+   margin: 0px auto;
+    padding: 24px;
+}
+
+.light-container{
+    background-color: lightpink;
+}
+
+.dark-container{
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.lighter-container{
+    background-color: palegoldenrod;
+}
+
+.side-by-side img {
+    width: 200px;
+}
