@@ -20,7 +20,7 @@ body {
 }
 
 .dark-container{
-    background-color: darkblue;
+    background-color: purple;
     color: whitesmoke;
 }
 
@@ -30,4 +30,19 @@ body {
 
 .side-by-side img {
     width: 200px;
+}
+.cookbook{
+    width: 200px;
+}
+
+.cooking{
+    width:100px
+}
+
+.wedding{
+    width: 100px
+}
+
+.School{
+    width: 100px
 }
