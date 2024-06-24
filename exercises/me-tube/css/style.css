@@ -62,9 +62,9 @@ body {
     margin-bottom: 24px;
     color: white
 }
-.metube-item .thumbnail-placeholder {
+.metube-item .thumbnails {
     aspect-ratio: 16 /9;
-    background: radial-gradient(at top left, crimson, orange);
+    background: radial-gradient(at top left, darkblue, lightblue);
     border-radius: 8px;
 }
 .metube-item h4 {
@@ -82,4 +82,22 @@ body {
 }
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+.metube-item .images{
+    width: 100px;
+}
+.metube-item .image-2{
+    width: 100px;
+}
+.metube-item .image-3{
+    width:100px
+}
+.metube-item .image-4{
+    width:100px
+}
+.metube-item .image-5{
+    width:100px
+}
+.metube-item .image-6{
+    width:100px
 }
