@@ -83,21 +83,9 @@ body {
 .metube-item .video-channel {
     margin-bottom: 4px;
 }
-.metube-item .images{
+.metube-item image-6{
     width: 100px;
 }
-.metube-item .image-2{
-    width: 50px;
-}
-.metube-item .image-3{
-    width: 100px
-}
-.metube-item .image-4{
-    width: 100px
-}
-.metube-item .image-5{
-    width: 100px
-}
-.metube-item .image-6{
-    width: 100px
+.metube-item image-4{
+    width: 100px;
 }
