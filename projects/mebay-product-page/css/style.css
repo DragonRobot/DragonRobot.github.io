@@ -10,10 +10,10 @@ body {
     color: #111111;
 }
 #image-1{
-    width: 100px
+    width: 100px;
 }
 #images-2{
-    width: 100px
+    width: 100px;
 }
 #three-columns {
     display: grid;
