@@ -17,3 +17,8 @@
     color: white;
     font-size: 24px;
 }
+.card-style-1 a:hover{
+    text-align: center;
+    background-color: transparent;
+    color: lightgreen;
+}
