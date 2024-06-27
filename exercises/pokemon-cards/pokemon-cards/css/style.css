@@ -7,7 +7,40 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.card-style-3{
+    width: 350px;
+    border: 10px solid yellow;
+    margin: 20px;
+}
+#pokemon-card-1{
+    background-color: lightgreen;
+}
+#pokemon-card-2{
+ background-color: rgb(156, 67, 156);
+}
+#pokemon-card-3{
+    background-color: lightcoral
+}
+#pokemon-card-4{
+    background-color: lightblue;
+}
 .card-style-3 img{
-    width: 100%;
-    padding: 20px;
+    border: 2px soild white;
+    width: 80%;
+}
+.details{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+    padding: 1px;
+}
+.attack{
+    display: flex;
+    justify-content: space-between;
 }
