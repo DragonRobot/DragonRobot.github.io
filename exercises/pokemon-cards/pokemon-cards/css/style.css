@@ -31,8 +31,9 @@ body{
     background-color: lightblue;
 }
 .card-style-3 img{
-    border: 2px soild white;
     width: 80%;
+    border: 10px solid yellow;
+    margin: 24px
 }
 .details{
     font-weight: bold;
@@ -43,4 +44,15 @@ body{
 .attack{
     display: flex;
     justify-content: space-between;
+}
+.description{
+    text-align: center;
+    margin: 20px
+}
+.health{
+    text-align: right;
+}
+.pokemon-header{
+    width: 350px;
+    margin: 20px;
 }
