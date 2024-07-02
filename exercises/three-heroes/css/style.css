@@ -1,35 +1,51 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0px;
     font-family: sans-serif;
 }
+
 .page-1 .texts{
     text-align: center;
-    margin-left: 20px;
+    margin-left: 20px; 
 }
+
+.page-1 .texts a:hover{
+    background-color: transparent;
+    color: purple;
+}
+
 .page-1 a{
     display: block;
-    background-color: Purple;
+    background-color: purple;
     padding: 24px;
     color: rgb(157, 240, 125);
     font-size: 24px;
     text-align: center;
     margin-left: 20px;
 }
-.hero-2 a{
+
+.page-2 a{
     display: block;
-    background-color: Blue;
+    background-color: blue;
     padding: 24px;
     color: white;
     font-size: 24px;
     text-align: center;
 }
-.hero-2 .texts-2{
+
+.page-2 .texts-2 a:hover{
+    background-color: transparent;
+    color: purple;
+}
+
+.page-2 .texts-2{
     text-align: center;
     margin-left: 20px;
 }
+
 .page-3 a{
     display: block;
     background-color: red;
@@ -38,10 +54,17 @@ body{
     font-size: 24px;
     text-align: center;
 }
+
 .page-3 .texts-3{
     text-align: center;
     margin-left: 20px;
 }
+
+.page-3 .texts-3 a:hover{
+    background-color: transparent;
+    color: purple;
+}
+
 .page-1{
     background-image: url("../images/Bed.png");
     height: 100vh;
@@ -51,7 +74,8 @@ body{
     justify-content: flex-start;
     align-items: center;
 }
-.hero-2{
+
+.page-2{
     background-image: url("../images/sleeping.png");
     height: 100vh;
     background-size: cover;
@@ -60,6 +84,7 @@ body{
     justify-content: flex-start;
     align-items: center;
 }
+
 .page-3{
     background-image: url("../images/waking-up.png");
     height: 100vh;
