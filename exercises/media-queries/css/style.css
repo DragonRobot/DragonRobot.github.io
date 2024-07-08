@@ -209,5 +209,19 @@ a {
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
-
-/* TODO: Add your media query code here */
+@media screen and (max-width: 768px){
+    #nav{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    #hero h1{
+        font-size: 30px;
+    }
+    .three-cards,
+    .two-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
