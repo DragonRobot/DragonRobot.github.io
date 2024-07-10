@@ -76,7 +76,7 @@ body{
     position: relative
 }
 
-#cards .card-content{
+#card5 .card-content{
     position: absolute;
     background-color: white;
     border: 3px solid black;
