@@ -6,14 +6,14 @@ body {
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#cards-Containers{
+.cards-Containers{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 
 .gallarie-1{
-    .card {
+    #card {
         flex: 300px;
         border: 3px solid black;
         margin: 24px;
@@ -22,7 +22,7 @@ body {
         text-align: center;
     }
         
-    .card a {
+    #card a {
         text-decoration: none;
         color: black;
         display: block;
@@ -165,36 +165,35 @@ body {
 }
 .gallarie-2{
     background-color: lightgray;
-    #cards-Containers{
+    img{
+        width: 100px;
+    }
+#cards-Containers{
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-    }
-    #cards-container {
-        display: flex;
-        flex-wrap: wrap;align-items: flex-start;
-    }
+}
         
-    .card {
+#card {
         flex: 300px;
         border: 3px solid black;
         margin: 24px;
         padding: 24px;
         border-radius: 12px;
         text-align: center;
-    }
+}
         
-    .card a {
+    #card a {
         text-decoration: none;
         color: black;
         display: block;
         border: 3px solid black;
         padding: 12px;
         margin-top: 36px;
-    }
+}
     #card1{
         position: relative
-    }
+}
     
     #card1 .card-content{
         position: absolute;
@@ -209,18 +208,18 @@ body {
         visibility: hidden;
         transform: translateY(-8px);
         transition: opacity 0.5s,visibility 0.5s,transform 0.5s;
-    }
+}
     
     #card1:hover .card-content{
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
-    }
+}
     #card2{
         position: relative
-    }
+}
     
-    #card2 .card-content{
+#card2 .card-content{
         position: absolute;
         background-color: white;
         border: 3px solid black;
@@ -233,18 +232,18 @@ body {
         visibility: hidden;
         transform: translateY(-8px);
         transition: opacity 0.5s,visibility 0.5s,transform 0.5s;
-    }
+}
     
-    #card2:hover .card-content{
+#card2:hover .card-content{
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
-    }
-    #card3{
+}
+#card3{
         position: relative
-    }
+}
     
-    #card3 .card-content{
+#card3 .card-content{
         position: absolute;
         background-color: white;
         border: 3px solid black;
@@ -257,18 +256,18 @@ body {
         visibility: hidden;
         transform: translateY(-8px);
         transition: opacity 0.5s,visibility 0.5s,transform 0.5s;
-    }
+}
     
-    #card3:hover .card-content{
+#card3:hover .card-content{
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
-    }
-    #card4{
+}
+#card4{
         position: relative
-    }
+}
     
-    #card4 .card-content{
+#card4 .card-content{
         position: absolute;
         background-color: white;
         border: 3px solid black;
@@ -281,27 +280,23 @@ body {
         visibility: hidden;
         transform: translateY(-8px);
         transition: opacity 0.5s,visibility 0.5s,transform 0.5s;
-    }
+}
     
-    #card4:hover .card-content{
+#card4:hover .card-content{
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
-    }
+}
 }
 .gallarie-3{
     background-color: lightgray;
-    #cards-Containers{
+#cards-Containers{
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-    }
-    #cards-container {
-        display: flex;
-        flex-wrap: wrap;align-items: flex-start;
-    }
+}
         
-    .card {
+#card {
         flex: 300px;
         border: 3px solid black;
         margin: 24px;
@@ -310,61 +305,61 @@ body {
         text-align: center;
     }
         
-    .card a {
+#card a {
         text-decoration: none;
         color: black;
         display: block;
         border: 3px solid black;
         padding: 12px;
         margin-top: 36px;
-    }
-    #card1 .card-content {
+}
+#card1 .card-content {
         opacity: 0;
         visibility: hidden;
         transform: translateY(-8px);
         transition:opacity 0.5s,visibility 0.5s;
-    }
+}
         
-    #card1:hover .card-content {
+#card1:hover .card-content {
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
-    }
+}
     #card2 .card-content {
         opacity: 0;
         visibility: hidden;
         transform: translateY(-8px);
         transition:opacity 0.5s,visibility 0.5s;
-    }
+}
         
-    #card2:hover .card-content {
+#card2:hover .card-content {
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
-    }
-    #card3 .card-content {
+}
+#card3 .card-content {
         opacity: 0;
         visibility: hidden;
         transform: translateY(-8px);
         transition:opacity 0.5s,visibility 0.5s;
-    }
+}
         
-    #card3:hover .card-content {
+#card3:hover .card-content {
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
-    }
-    #card4 .card-content {
+}
+#card4 .card-content {
         opacity: 0;
         visibility: hidden;
         transform: translateY(-8px);
         transition:opacity 0.5s,visibility 0.5s;
-    }
+}
         
-    #card4:hover .card-content {
+#card4:hover .card-content {
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
-    }
+}
 
 }
