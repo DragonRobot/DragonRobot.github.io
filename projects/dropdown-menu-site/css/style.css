@@ -17,7 +17,7 @@ body {
 .card {
     flex: 300px;
     border: 3px solid black;
-    margin: 24px;
+    margin: 200px;
     padding: 24px;
     border-radius: 12px;
     text-align: center;
@@ -25,7 +25,7 @@ body {
 
 .card a {
     text-decoration: none;
-    color: black;
+    color: rgb(48, 48, 48);
     display: block;
     border: 3px solid black;
     padding: 12px;
@@ -87,6 +87,17 @@ body {
     background: rgb(67, 92, 91);
 }
 
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+    margin: 100px;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
 #card-1 .card-front {
     background-image: url("../images/dragon-egg.png");
     background-size: cover;border-radius: 12px;
@@ -94,6 +105,7 @@ body {
     height: 100%;
     position: absolute;
 }
+
 #card-1 .card-front {
     transition: transform 0.25s;
 }
@@ -198,9 +210,11 @@ body {
 }
 
 #card-4 {
-    position: relative;border: 0px;padding: 0px;}
-    
-    
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
 #card-4 .card-front,
 #card-4 .card-back {
     border: 3px solid black;
