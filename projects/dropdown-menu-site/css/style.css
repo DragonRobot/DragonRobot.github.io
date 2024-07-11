@@ -93,6 +93,12 @@ body {
     margin: 100px;
 }
 
+.header{
+    margin: 200px;
+    color:rgb(97, 113, 250);
+    font-size: large;
+    font-style: bold;
+}
 .vertical-masonry-gallery img {
     width: 100%;
     margin-bottom: 24px;
