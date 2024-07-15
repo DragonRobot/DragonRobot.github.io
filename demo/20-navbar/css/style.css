@@ -49,6 +49,7 @@ body {
     position: sticky;
     top: 0px;
 }
+
 .navbar-bottom {
     background: linear-gradient(to bottom, yellowgreen, olive);
     display: flex;
