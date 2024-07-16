@@ -26,7 +26,7 @@ body {
 .navbar a:hover {
     background: linear-gradient(to top, rgb(175, 94, 2), rgb(160, 241, 84));
 }
-
+    
 #card6 {
     position: relative;
     border: 0px;
