@@ -8,7 +8,6 @@ body {
     color: grey
 }
 
-
 .navbar{
     background: linear-gradient(to bottom, rgb(192, 158, 48), #c0f34a);
     display: flex;
