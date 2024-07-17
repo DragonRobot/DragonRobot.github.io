@@ -33,9 +33,6 @@ body {
     margin-right: 24px;
 }
 
-.p-1{
-    color: white;
-}
 #cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +41,7 @@ body {
 
 .card {
     flex: 300px;
-    border: 3px solid blue;
+    border: 3px solid black;
     margin: 24px;
     padding: 24px;
     border-radius: 12px;
@@ -53,23 +50,24 @@ body {
 
 .card a {
     text-decoration: none;
-    color: grey;
+    color: black;
     display: block;
-    border: 3px solid blue;
+    border: 3px solid black;
     padding: 12px;
     margin-top: 36px;
 }
+
 #card6 {
     position: relative;
     border: 0px;
-    padding: 0px;}
+    padding: 0px;
+}
     
 #card6 .card-front,
 #card6 .card-back {
     border: 3px solid black;
     border-radius: 12px;
     padding: 24px;
-    color: white
 }
     
 #card6 .card-back {
@@ -84,8 +82,7 @@ body {
     height: 100%;
     position: absolute;
 }
-    
-    
+
 #card6 .card-front {
     transition: transform 0.25s 0.25s;
 }
@@ -95,37 +92,25 @@ body {
 }
     
 #card6:hover .card-front {
-    transform: scaleX(0);transition: transform 0.25s;
+    transform: scaleX(0);
+    transition: transform 0.25s;
 }
     
 #card6:hover .card-back {
     transform: scaleX(1);
     transition: transform 0.25s 0.25s;
 }
-
-#hero-2 {
-    background-image: url("../images/football.png");
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-#hero-2 h2 {
+#hero h2 {
     font-size: 8vw;
     margin-bottom: 5vh;
     margin-right: 5vw;
 }
     
-#hero-2 h4 {
-    font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
+#hero h4 {
+    font-size: 3vw;margin: 0px 5vw 0px 0px;
 }
     
-#hero-2 a {
+#hero a {
     font-size: 1.5vw;
     display: inline-block;
     background-color: #333333;
@@ -133,16 +118,4 @@ body {
     text-decoration: none;
     padding: 24px;
     margin: 5vh 5vw 10vh 0px;
-}
-
-.single-column {
-    width: 50%;
-    min-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-.light-container {
-    background-color: grey;
-    padding: 48px 0px;
 }
