@@ -5,7 +5,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    color: grey
+    background-color: black;
+    color: white;
 }
 p{
     font-style: bold;
